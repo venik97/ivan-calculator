@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>for-lessons</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .img-container img {
+        max-width: 100%;
+      }
+    </style>
+
+  </head>
+  <body>
+
+  <h1>Калькулятор</h1>
+  <div id="calc" class="calcBox">
+    <input readonly class="wind" type="text" name="Wind" id="out" value="0">
+    <hr>
+    <div class="buttonbox clearfix ">
+      <div id ='c' class="btn c">C</div>
+      <div id ='b_bec' class="btn"><--</div>
+      <div id ='b_plus_minus' class="btn">+/-</div>
+      <div data-value="/" data-type="operator" id ='b_deli' class="btn l">/</div>
+      <div data-value="7" data-type="number" id ='b_7' class="btn m">7</div>
+      <div data-value="8" data-type="number" id ='b_8' class="btn m">8</div>
+      <div data-value="9" data-type="number" id ='b_9' class="btn m">9</div>
+      <div data-value="*" data-type="operator" id ='b_umn' class="btn l">*</div>
+      <div data-value="4" data-type="number" id ='b_4' class="btn m">4</div>
+      <div data-value="5" data-type="number" id ='b_5' class="btn m">5</div>
+      <div data-value="6" data-type="number" id ='b_6' class="btn m">6</div>
+      <div data-value="-" data-type="operator" id ='b_minus' class="btn l">-</div>
+      <div data-value="1" data-type="number" id ='b_1' class="btn m">1</div>
+      <div data-value="2" data-type="number" id ='b_2' class="btn m">2</div>
+      <div data-value="3" data-type="number" id ='b_3' class="btn m">3</div>
+      <div data-value="+" data-type="operator" id ='b_plus' class="btn l">+</div>
+      <div data-value="0" data-type="number" id ='b_o' class="btn m">0</div>
+      <div id ='b_t4k' class="btn m">.</div>
+      <div data-value="=" data-type="operator" id ='bravno' class="btn ravno">=</div>
+    </div>
+  </div >
+
+  <script src="./src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+#0
+{
+  a: 20
+  b: 10
+  obj1: #1
+  obj2: #2
+}
+
+#1
+function (num) {
+  return num * 5;
+};
