@@ -30,6 +30,11 @@ function router(event) {
 }
 
 function initOperator(operator) {
+  if (operator === 'c') {
+    clearAll();
+    return;
+  }
+
   if (currentState === 3) {
     calculate(operator);
   }
@@ -54,6 +59,12 @@ function calculate() {
 }
 
 function clear() {
+  state.operator = '';
+  state.num2 = '';
+}
+
+function clearAll() {
+  state.num1 = '0';
   state.operator = '';
   state.num2 = '';
 }
